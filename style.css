@@ -1,0 +1,29 @@
+html {
+    scrollbar-width: normal;
+    scrollbar-color: rgb(104, 102, 102) rgb(95, 95, 95);
+  }
+
+  html::-webkit-scrollbar {
+    width: 4vw;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgb(75, 198, 255);
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(59, 193, 255);
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color: rgb(0, 70, 110);
+  }
+
+  html::-webkit-scrollbar-track:hover {
+    background-color: rgb(44, 139, 248);
+  }
+
+  body {
+    background-color: rgb(68, 62, 62);
+    color: rgb(211, 210, 210);
+  }
